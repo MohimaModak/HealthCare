@@ -23,35 +23,35 @@ export default function Team() {
         <p className="text-lg text-gray-600 mb-8">
           Compassionate Care from Trusted Professionals
         </p>
-        <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
+        <p data-aos="fade-up" className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
           Our team of highly skilled doctors, nurses, and specialists is dedicated to providing you with the best possible care. With years of experience and a commitment to ongoing education, our professionals stay at the forefront of medical advancements. Get to know the faces behind your care and feel confident in the expertise of our team.
         </p>
 
         {/* Team Images Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* Doctor 1 */}
-          <div className="flex flex-col items-center">
+          <div data-aos="fade-up" className="flex flex-col items-center">
             <img src={doctor1} alt="Doctor 1" className="w-64 h-64 rounded-sm object-cover mb-4 shadow-lg"/>
             <h4 className="font-semibold text-xl text-gray-800">Dr. John Doe</h4>
             <p className="text-gray-600">Cardiologist</p>
           </div>
 
           {/* Doctor 2 */}
-          <div className="flex flex-col items-center">
+          <div data-aos="fade-up" className="flex flex-col items-center">
             <img src={doctor3} alt="Doctor 2" className="w-64 h-64 rounded-sm object-cover mb-4 shadow-lg"/>
             <h4 className="font-semibold text-xl text-gray-800">Dr. Jane Smith</h4>
             <p className="text-gray-600">Orthopedic Specialist</p>
           </div>
 
           {/* Doctor 3 */}
-          <div className="flex flex-col items-center">
+          <div data-aos="fade-up" className="flex flex-col items-center">
             <img src={doctor2} alt="Doctor 3" className="w-64 h-64 rounded-sm object-cover mb-4 shadow-lg"/>
             <h4 className="font-semibold text-xl text-gray-800">Dr. Emily Williams</h4>
             <p className="text-gray-600">Pediatrician</p>
           </div>
 
           {/* Doctor 4 */}
-          <div className="flex flex-col items-center">
+          <div data-aos="fade-up" className="flex flex-col items-center">
             <img src={doctor4} alt="Doctor 4" className="w-64 h-64 rounded-sm object-cover mb-4 shadow-lg"/>
             <h4 className="font-semibold text-xl text-gray-800">Dr. Michael Johnson</h4>
             <p className="text-gray-600">Neurologist</p>

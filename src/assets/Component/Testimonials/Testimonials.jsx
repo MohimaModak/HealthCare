@@ -23,7 +23,7 @@ export default function Testimonials() {
         {/* Testimonials Container */}
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Testimonial 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg text-left">
+          <div data-aos="fade-up" className="bg-white p-6 rounded-lg shadow-lg text-left">
             <p className="text-gray-700 italic">
               "The care I received at <strong className="text-blue-500">Vadra Hospital</strong> was exceptional. 
               The staff was compassionate, and the doctors took the time to explain everything clearly."
@@ -32,7 +32,7 @@ export default function Testimonials() {
           </div>
 
           {/* Testimonial 2 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg text-left">
+          <div data-aos="fade-up" className="bg-white p-6 rounded-lg shadow-lg text-left">
             <p className="text-gray-700 italic">
               "From diagnosis to treatment, the entire process was seamless. 
               I highly recommend this facility!"

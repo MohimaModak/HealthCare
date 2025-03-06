@@ -5,17 +5,17 @@ export default function HealthTips() {
     <section id="health-tips" className="w-full bg-blue-50 py-20 px-10 text-black">
       <div className="max-w-6xl mx-auto text-center">
         {/* Headline */}
-        <h2 className="text-3xl font-bold">
+        <h2 data-aos="fade-up" className="text-3xl font-bold">
           Stay Informed with Our <span className="text-blue-600">Health Tips</span> 
         </h2>
-        <p className="text-lg text-gray-600 mt-2">
+        <p data-aos="fade-up" className="text-lg text-gray-600 mt-2">
           Explore our latest articles and tips to stay healthy and informed.
         </p>
 
         {/* Blog List Container */}
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Article 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 cursor-pointer">
+          <div data-aos="fade-up" className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 cursor-pointer">
             <h3 className="text-xl font-semibold">
               5 Ways to Boost Your Immune System Naturally
             </h3>
@@ -26,7 +26,7 @@ export default function HealthTips() {
           </div>
 
           {/* Article 2 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 cursor-pointer">
+          <div data-aos="fade-up" className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 cursor-pointer">
             <h3 className="text-xl font-semibold">
               Understanding the Signs of Heart Disease
             </h3>
@@ -36,7 +36,7 @@ export default function HealthTips() {
           </div>
 
           {/* Article 3 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 cursor-pointer">
+          <div data-aos="fade-up" className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 cursor-pointer">
             <h3 className="text-xl font-semibold">
               The Importance of Regular Health Check-Ups
             </h3>
@@ -47,7 +47,7 @@ export default function HealthTips() {
         </div>
 
         {/* CTA Button */}
-        <div className="mt-8">
+        <div data-aos="fade-up" className="mt-8">
           <button className="bg-blue-500 px-6 py-3 text-white font-medium text-sm sm:text-base lg:text-lg rounded-sm">
             Read More Health Tips
           </button>

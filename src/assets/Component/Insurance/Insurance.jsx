@@ -25,7 +25,7 @@ export default function Insurance() {
           <p className="text-lg my-5 font-bold">
             We Accept Most Insurance Plans and Offer Flexible Payment Options
           </p>
-          <p className=" mt-4">
+          <p data-aos="fade-up" className=" mt-4">
             At <strong className="text-blue-500">Vadra Hospital</strong>, we believe that
             quality healthcare should be accessible to all. We accept most major
             insurance plans and offer transparent pricing for self-pay patients.
@@ -36,17 +36,17 @@ export default function Insurance() {
 
           {/* Buttons */}
           <div className="mt-6 flex flex-col sm:flex-row sm:justify-start gap-4">
-            <button className="bg-blue-500 px-6 py-3 text-white font-medium text-sm sm:text-base lg:text-lg rounded-sm">
+            <button data-aos="fade-up" className="bg-blue-500 px-6 py-3 text-white font-medium text-sm sm:text-base lg:text-lg rounded-sm">
               Verify Your Insurance
             </button>
-            <button className="px-6 py-3 bg-blue-200 border  text-blue-700 font-semibold rounded-lg hover:shadow-xl transition duration-300">
+            <button data-aos="fade-up" className="px-6 py-3 bg-blue-200 border  text-blue-700 font-semibold rounded-lg hover:shadow-xl transition duration-300">
               View Payment Options
             </button>
           </div>
         </div>
 
         {/* Right Side - Image */}
-        <div className="lg:w-1/2 mt-8 lg:mt-0 ">
+        <div data-aos="fade-up" className="lg:w-1/2 mt-8 lg:mt-0 ">
           <img
             src={InsuranceImg}
             alt="Insurance Coverage"

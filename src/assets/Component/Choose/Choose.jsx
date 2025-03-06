@@ -29,23 +29,23 @@ export default function Choose() {
 
         {/* Right Section - Features */}
         <div className="lg:w-1/2 mt-6 lg:mt-0 space-y-8">
-          <p className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
+          <p data-aos="fade-up" className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
             <strong className="text-blue-500">✓ Expert Team:</strong> Our highly skilled professionals are
             leaders in their fields.
           </p>
-          <p className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
+          <p data-aos="fade-up" className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
             <strong className="text-blue-500">✓ Cutting-Edge Technology:</strong> We use the latest medical
             advancements.
           </p>
-          <p className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
+          <p data-aos="fade-up" className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
             <strong className="text-blue-500">✓ Patient-Centered Care:</strong> Your comfort and well-being
             are our top priorities.
           </p>
-          <p className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
+          <p data-aos="fade-up" className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
             <strong className="text-blue-500">✓ Convenient Scheduling:</strong> Easy online booking and
             flexible appointment times.
           </p>
-          <p className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
+          <p data-aos="fade-up" className="bg-white p-2 text-center shadow rounded-se-full rounded-b-full">
             <strong className="text-blue-500">✓ Affordable Options:</strong> Transparent pricing and
             insurance acceptance.
           </p>
