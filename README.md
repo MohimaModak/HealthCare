@@ -25,6 +25,25 @@ Whether you're a healthcare provider or a user seeking healthcare resources, Hea
 - **Images**: [Pixabay](https://pixabay.com/) & [Storyset](https://storyset.com/)
 - **Tools**: Vite (for fast builds), React Router, and more.
 
+
+## Credits
+### **Icons**
+- **Tabler Icons**: Icons used in this project are from [Tabler Icons](https://tabler-icons.io), a free and open-source icon library.
+
+### **Images**
+- **Pixabay**: Images used in this project are sourced from [Pixabay](https://pixabay.com), a free stock photo and video website.
+- **Storyset**: Illustrations used in this project are from [Storyset](https://storyset.com), a free library of customizable illustrations.
+
+### **Fonts**
+- **Google Fonts**: Fonts used in this project are from [Google Fonts](https://fonts.google.com).
+
+### **Tools and Libraries**
+- **React.js**: A JavaScript library for building user interfaces. [React](https://reactjs.org).
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development. [Tailwind CSS](https://tailwindcss.com).
+- **Vite**: A fast build tool for modern web projects. [Vite](https://vitejs.dev).
+- **React Router**: A routing library for React applications. [React Router](https://reactrouter.com).
+
+
 ## Installation
 
 1. Clone the repository:
