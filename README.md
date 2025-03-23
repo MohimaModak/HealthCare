@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HealthCare Plus
 
 ## Description
@@ -47,4 +48,6 @@ npm run build
 2. **Installation Steps**: Clear instructions on how to install dependencies, run the development server, and build the project.
 3. **Credits**: Proper attribution for images and icons.
 
+=======
+>>>>>>> 1bed4b9e0df39910f45936fb9e28d0bbb440049a
 
