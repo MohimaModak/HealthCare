@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import menu from "../../Gallery/menu.png";
 import { Link } from "react-scroll";
 import './Navbar.css';
+import about from "../../Gallery/lungs.png"
+
 
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -41,28 +43,39 @@ export default function Navbar() {
 
       {/* Desktop Navbar */}
       <div className="flex justify-center items-center">
-        <div className="hidden md:block px-16 bg-blue-500 border rounded-full w-max mt-3">
-          <nav className="navbar flex justify-center items-center">
-            <div className="navbar-links lg:flex justify-center items-center">
-              <Link to="/" smooth={true} duration={1000} className="text-xl mr-5">
+        <div className="hidden md:block bg-sky-50 text-blue-500 w-full">
+          <nav className="navbar flex justify-between items-center gap-2">
+
+            <div className=" flex items-center">
+              <h1 className="text-2xl lg:text-4xl font-bold">HealthCare</h1>
+            </div>
+
+            <div className="navbar-links lg:flex justify-evenly items-center">
+              <Link to="/" smooth={true} duration={1000} className="text-xl mr-5 font-semibold">
                 Home
               </Link>
-              <Link to="/About" smooth={true} duration={1000} className="text-xl mr-5">
+              <Link to="/About" smooth={true} duration={1000} className="text-xl mr-5 font-semibold">
                 About
               </Link>
-              <Link to="/Services" smooth={true} duration={1000} className="text-xl mr-5">
+              <Link to="/Services" smooth={true} duration={1000} className="text-xl mr-5 font-semibold">
                 Services
               </Link>
-              <Link to="/Insurance" smooth={true} duration={1000} className="text-xl mr-5">
+              <Link to="/Insurance" smooth={true} duration={1000} className="text-xl mr-5 font-semibold">
                 Insurance
               </Link>
-              <Link to="/Testimonials" smooth={true} duration={1000} className="text-xl mr-5">
+              <Link to="/Testimonials" smooth={true} duration={1000} className="text-xl mr-5 font-semibold">
                 Testimonial
               </Link>
-              <Link to="/Contact" smooth={true} duration={1000} className="text-xl mr-5">
+              <Link to="/Contact" smooth={true} duration={1000} className="text-xl font-semibold">
                 Contact
               </Link>
+
             </div>
+
+            <div className="text-lg lg:text-xl bg-blue-500 px-2.5 lg:px-4 py-1.5 rounded-full text-white">
+              <button>Sign Up</button>
+            </div>
+
           </nav>
         </div>
       </div>

@@ -38,10 +38,11 @@ export default function Home() {
                 <h1 className='text-2xl font-bold block lg:hidden'>Your Health, Our Priority Trusted <span className="text-blue-500 border-b-2 rounded-t-md border-sky-600">
                   Medical Care
                 </span> You Can Rely On</h1>
+                <p className='text-xl font-semibold mt-5 mb-4'>Easily Schedule Your Appointments Online and Take Control of Your Health</p>
                 <p className='my-5 text-base font-medium hidden lg:block'>Compassionate, Expert Care for Every Stage of <br /> Life. Book Your Appointment Today!</p>
                 <p className='my-5 text-xs font-medium block lg:hidden'>Compassionate, Expert Care for Every Stage of Life. Book Your Appointment Today!</p>
                 <div className='text-left'>
-                  <button className='bg-blue-500 px-6 py-3 text-white font-medium text-sm sm:text-base lg:text-lg rounded-sm'>Book an Appointment Now
+                  <button className='bg-blue-500 px-6 py-3 text-white font-medium text-sm sm:text-base lg:text-lg rounded'>Book an Appointment Now
                   </button>
                 </div>
               </div>

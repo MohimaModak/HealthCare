@@ -17,7 +17,7 @@ Whether you're a healthcare provider or a user seeking healthcare resources, Hea
 - **Frontend**: React.js
 - **Styling**: Tailwind CSS
 - **Icons**: Tabler Icons
-- **Images**: Pixabay & Storyset
+- **Images**: Pixabay Pexel & Storyset
 - **Tools**: Vite (for fast builds), React Router, and more.## Tech Stack
 - **Frontend**: React.js
 - **Styling**: Tailwind CSS
@@ -29,7 +29,7 @@ Whether you're a healthcare provider or a user seeking healthcare resources, Hea
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/healthcare-plus.git
+   git clone https://github.com/MohimaModak/HealthCare.git
 
 
 This will help users understand how to install, run, and build your project.
@@ -43,7 +43,7 @@ npm run build
 
    
 ### **Key Notes:**
-1. **Live Demo**: Replace `https://your-live-demo-link.com`.
+1. **Live Demo**: Replace `https://health-care-kappa-ivory.vercel.app/`.
 2. **Installation Steps**: Clear instructions on how to install dependencies, run the development server, and build the project.
 3. **Credits**: Proper attribution for images and icons.
 
