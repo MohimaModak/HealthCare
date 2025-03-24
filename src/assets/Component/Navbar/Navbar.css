@@ -20,7 +20,7 @@
 
 .nav-item.active-link {
   color: white;
-  background-color: rgb(169, 209, 255);
+  background-color: rgb(5, 99, 207);
   font-weight: 600;
   transform: scale(1.1);
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Shadow for active link */
@@ -32,7 +32,7 @@
   right: -250px;
   width: 250px;
   height: 100%;
-  background-color: rgb(154, 186, 223);
+  background-color: rgb(175, 209, 248);
   transition: right 0.3s ease-in-out;
   z-index: 1000;
   padding-top: 50px;
@@ -48,12 +48,10 @@
 }
 
 .mobile-menu .navbar-links a {
-  color: white;
   padding: 15px;
   text-align: center;
   text-decoration: none;
   display: block;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for mobile menu items */
 }
 
 .menu-icon {
